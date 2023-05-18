@@ -1,0 +1,5 @@
+file_handler = open('D:\gla.text', "a")
+print("\nEnter the content to append: ", end="")
+content = input()
+file_handler.write(content)
+file_handler.close()
